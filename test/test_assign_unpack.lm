@@ -1,0 +1,8 @@
+import './test.lm';
+
+var x, y, z;
+x, y, z = [10, "hello", 0.2];
+
+test.assert(x == 10);
+test.assert(y == "hello");
+test.assert(z == 0.2);

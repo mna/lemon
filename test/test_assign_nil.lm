@@ -1,0 +1,4 @@
+import './test.lm';
+
+var x = nil;
+test.assert(x == nil);

@@ -1,0 +1,4 @@
+import './test.lm';
+
+var x = 10;
+test.assert(x == 10);

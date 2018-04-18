@@ -1,0 +1,4 @@
+import './test.lm';
+
+var x = sentinel;
+test.assert(x == sentinel);
