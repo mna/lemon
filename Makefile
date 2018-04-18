@@ -122,7 +122,7 @@ mkdir: obj
 obj:
 	@mkdir obj
 
-lemon: obj/main.o $(LIB) Makefile
+lemon: obj obj/main.o $(LIB) Makefile
 	$(CC) $(CFLAGS) obj/main.o $(LIB) $(LIBFLAGS) $(LDFLAGS) -o $@
 	@echo CC lemon
 
